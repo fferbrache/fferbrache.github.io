@@ -1,5 +1,5 @@
 # frankieferb.github.io
 
-My first repository on github
+This is my attempt at building a resume on github-pages
 
-I love :coffee: and :pizza:.
+It is a work in progress.
