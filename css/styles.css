@@ -157,9 +157,9 @@ sub {
 sup {
   top: -0.5em;
 }
-
+/* email text color */
 a {
-  color: #bd5d38;
+  color: #bd5d38; 
   text-decoration: none;
   background-color: transparent;
 }
@@ -198,7 +198,8 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none;
+  /* border-style: none; */
+  border: 1px solid black;
 }
 
 svg {
@@ -573,6 +574,17 @@ pre code {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
+}
+.rows {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.educationColumn {
+  flex: 33.33%;
+  padding: 5px;
 }
 .row {
   display: flex;
@@ -6073,9 +6085,11 @@ a.close.disabled {
 .align-text-top {
   vertical-align: text-top !important;
 }
-
+/* toggle bar color style */
 .bg-primary {
   background-color: #bd5d38 !important;
+  /* background-color: #6c757d !important; */
+  /* 6c757d */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
