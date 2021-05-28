@@ -598,21 +598,21 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #149ddd;
+  width: 154px;
+  height: 154px;
+  /* background: #149ddd; */
   border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #149ddd;
+  /* transition: 0.5s; */
+  /* border: 1px solid #149ddd; */
 }
 
 .services .icon i {
-  color: #fff;
-  font-size: 24px;
+  /* color: #fff; */
+  font-size: 150px;
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  /* background: #fff; */
 }
 
 .services .icon-box:hover .icon i {
