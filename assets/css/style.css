@@ -512,7 +512,7 @@ section {
 }
 
 .services .icon {
-  float: left;
+  /* float: r; */
   display: flex;
   align-items: center;
   justify-content: center;
